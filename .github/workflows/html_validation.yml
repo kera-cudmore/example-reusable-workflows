@@ -1,0 +1,14 @@
+on:
+  workflow_call:
+  
+jobs:
+  html:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.2.2
+
+      - name: validate-html
+        uses: Cyb3r-Jak3/html5validator-action@v7.2.0
+        with:
+          root: .
