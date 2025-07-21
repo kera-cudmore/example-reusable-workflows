@@ -20,6 +20,6 @@ Read the related blog post here: [Reusable GitHub Workflows](https://www.keracud
 
 ## Reusable Workflow
 
-### html_validation
+### html_validation
 
 Checks out the calling repository and validates the HTML. Uses: [HTML5 Validator action](https://github.com/marketplace/actions/html5-validator)
